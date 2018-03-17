@@ -12,7 +12,7 @@ func main() {
 	if len(os.Args) != 3 {
 		fmt.Println("Encrypts the provided data (string) with the provided public key (hex encoded) " +
 			"using the Bitcoin ECDSA curve.")
-		fmt.Println("Usage: encrypter [datahex] [publichex]")
+		fmt.Println("Usage: encrypter [data] [publichex]")
 		return
 	}
 	data := os.Args[1]
